@@ -38,9 +38,25 @@ If you use this workflow in a paper, don't forget to give credits to the authors
   melt: mobile element locator tool
   ```
   https://melt.igs.umaryland.edu/index.php
+  requires bowtie2
   ```
   
+##
+  java –jar MELT.jar Runtime --help/-help/-h
   
+## deployment on Armis2
+  
+  melt is available on Armis2 modules.  Smoove and ExpansionHunter are not and will need to be loaded in conda.
+  
+  Snakedeploy can be setup to use melt automatically on Armis2
+  ```
+  module load Bioinformatics
+  module load melt
+  ``
+  
+source /home/delpropo/miniconda3/etc/profile.d/conda.sh
+conda activate snakemake
+
 # TODO
 
 * Replace `<owner>` and `<repo>` everywhere in the template (also under .github/workflows) with the correct `<repo>` name and owning user or organization.
