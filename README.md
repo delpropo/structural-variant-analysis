@@ -59,6 +59,8 @@ conda activate snakemake
 
 # TODO
 
+chr14, chrX for all data
+
 * Replace `<owner>` and `<repo>` everywhere in the template (also under .github/workflows) with the correct `<repo>` name and owning user or organization.
 * Replace `<name>` with the workflow name (can be the same as `<repo>`).
 * Replace `<description>` with a description of what the workflow does.
