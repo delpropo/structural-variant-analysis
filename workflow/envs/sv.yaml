@@ -1,0 +1,23 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bioconda::bedops =2.4
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - rust-bio-tools =0.9
+  - bcftools =1.10
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - samtools =1.10channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python =3.6
+  - matplotlib =2.2
+  - pandas =0.23
+  - seaborn =0.8
